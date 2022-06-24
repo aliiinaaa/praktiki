@@ -1,0 +1,114 @@
+.header{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 57px;
+color: #E50043;
+
+}
+h3{
+padding-left: 50px;
+}
+li{
+display :inline;
+padding-right: 50px;
+
+
+}
+.logo{
+height: 950px;
+}
+.logo>img{
+height: 950px;
+position: relative;
+width: 100%; /* for IE 6 */
+}
+
+h1 {
+position: absolute;
+top	: 560px;
+left: 400px;
+width: 100%;
+}
+h1 span{
+position: relative;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 115px;
+color: #E50043;
+
+
+}
+body{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #000000;
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.bottles{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 1040px;
+top:1670px;
+bottom: 826px;
+}
+.border{
+border: 3px solid #F8BFC7;
+border-radius: 20px;
+width: 1040px;
+margin:150px;
+}
+.border>p{
+padding: 0 30px 0 0px;
+}
+.border .border-flex{
+display: flex;
+flex-direction:column ;
+}
+.glass{
+display: flex;
+flex-direction: row;
+}
+.glass>img{
+width: 101px;
+height: 220px;
+padding: 30px 30px 30px 60px;
+}
+.text{
+padding: 30px 30px 30px 0;
+}
+.copyright{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: #F8BFC7;
+color: #FFFFFF;
+font-family: 'Arial';
+font-style: normal;
+font-size: 40px;
+height: 90px;
+}
+a:link { 
+color: #E50043;
+text-decoration: none;}
+a:visited {
+color: #E50043;
+text-decoration: none;}
+a:hover { 
+color: #b3667d;
+text-decoration: none;}
